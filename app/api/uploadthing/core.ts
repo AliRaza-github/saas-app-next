@@ -61,7 +61,7 @@ export const ourFileRouter = {
         await db.file.update({
           data: {
             uploadStatus: 'SUCCESS',
-            pagesCount: pagesAmt,
+            // pagesCount: pagesAmt,
           },
           where: {
             id: createdFile.id,
